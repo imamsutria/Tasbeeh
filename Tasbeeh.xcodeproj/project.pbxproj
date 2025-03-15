@@ -1,0 +1,954 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F44980702D855B11001D36A1 /* Tasbeeh Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F449806F2D855B11001D36A1 /* Tasbeeh Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F449805A2D855B11001D36A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F44980412D855B10001D36A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F44980482D855B10001D36A1;
+			remoteInfo = Tasbeeh;
+		};
+		F44980642D855B11001D36A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F44980412D855B10001D36A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F44980482D855B10001D36A1;
+			remoteInfo = Tasbeeh;
+		};
+		F44980712D855B11001D36A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F44980412D855B10001D36A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F449806E2D855B11001D36A1;
+			remoteInfo = "Tasbeeh Watch App";
+		};
+		F44980822D855B12001D36A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F44980412D855B10001D36A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F449806E2D855B11001D36A1;
+			remoteInfo = "Tasbeeh Watch App";
+		};
+		F449808C2D855B13001D36A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F44980412D855B10001D36A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F449806E2D855B11001D36A1;
+			remoteInfo = "Tasbeeh Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F44980982D855B13001D36A1 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				F44980702D855B11001D36A1 /* Tasbeeh Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F44980492D855B10001D36A1 /* Tasbeeh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tasbeeh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44980592D855B11001D36A1 /* TasbeehTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TasbeehTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44980632D855B11001D36A1 /* TasbeehUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TasbeehUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F449806F2D855B11001D36A1 /* Tasbeeh Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tasbeeh Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44980812D855B12001D36A1 /* Tasbeeh Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tasbeeh Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F449808B2D855B13001D36A1 /* Tasbeeh Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tasbeeh Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F449804B2D855B10001D36A1 /* Tasbeeh */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Tasbeeh;
+			sourceTree = "<group>";
+		};
+		F449805C2D855B11001D36A1 /* TasbeehTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TasbeehTests;
+			sourceTree = "<group>";
+		};
+		F44980662D855B11001D36A1 /* TasbeehUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TasbeehUITests;
+			sourceTree = "<group>";
+		};
+		F44980732D855B11001D36A1 /* Tasbeeh Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Tasbeeh Watch App";
+			sourceTree = "<group>";
+		};
+		F44980842D855B12001D36A1 /* Tasbeeh Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Tasbeeh Watch AppTests";
+			sourceTree = "<group>";
+		};
+		F449808E2D855B13001D36A1 /* Tasbeeh Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Tasbeeh Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F44980462D855B10001D36A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44980562D855B11001D36A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44980602D855B11001D36A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F449806C2D855B11001D36A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F449807E2D855B12001D36A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44980882D855B13001D36A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F44980402D855B10001D36A1 = {
+			isa = PBXGroup;
+			children = (
+				F449804B2D855B10001D36A1 /* Tasbeeh */,
+				F449805C2D855B11001D36A1 /* TasbeehTests */,
+				F44980662D855B11001D36A1 /* TasbeehUITests */,
+				F44980732D855B11001D36A1 /* Tasbeeh Watch App */,
+				F44980842D855B12001D36A1 /* Tasbeeh Watch AppTests */,
+				F449808E2D855B13001D36A1 /* Tasbeeh Watch AppUITests */,
+				F449804A2D855B10001D36A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F449804A2D855B10001D36A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F44980492D855B10001D36A1 /* Tasbeeh.app */,
+				F44980592D855B11001D36A1 /* TasbeehTests.xctest */,
+				F44980632D855B11001D36A1 /* TasbeehUITests.xctest */,
+				F449806F2D855B11001D36A1 /* Tasbeeh Watch App.app */,
+				F44980812D855B12001D36A1 /* Tasbeeh Watch AppTests.xctest */,
+				F449808B2D855B13001D36A1 /* Tasbeeh Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F44980482D855B10001D36A1 /* Tasbeeh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F44980992D855B13001D36A1 /* Build configuration list for PBXNativeTarget "Tasbeeh" */;
+			buildPhases = (
+				F44980452D855B10001D36A1 /* Sources */,
+				F44980462D855B10001D36A1 /* Frameworks */,
+				F44980472D855B10001D36A1 /* Resources */,
+				F44980982D855B13001D36A1 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F44980722D855B11001D36A1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F449804B2D855B10001D36A1 /* Tasbeeh */,
+			);
+			name = Tasbeeh;
+			packageProductDependencies = (
+			);
+			productName = Tasbeeh;
+			productReference = F44980492D855B10001D36A1 /* Tasbeeh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F44980582D855B11001D36A1 /* TasbeehTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F449809C2D855B13001D36A1 /* Build configuration list for PBXNativeTarget "TasbeehTests" */;
+			buildPhases = (
+				F44980552D855B11001D36A1 /* Sources */,
+				F44980562D855B11001D36A1 /* Frameworks */,
+				F44980572D855B11001D36A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F449805B2D855B11001D36A1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F449805C2D855B11001D36A1 /* TasbeehTests */,
+			);
+			name = TasbeehTests;
+			packageProductDependencies = (
+			);
+			productName = TasbeehTests;
+			productReference = F44980592D855B11001D36A1 /* TasbeehTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F44980622D855B11001D36A1 /* TasbeehUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F449809F2D855B13001D36A1 /* Build configuration list for PBXNativeTarget "TasbeehUITests" */;
+			buildPhases = (
+				F449805F2D855B11001D36A1 /* Sources */,
+				F44980602D855B11001D36A1 /* Frameworks */,
+				F44980612D855B11001D36A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F44980652D855B11001D36A1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F44980662D855B11001D36A1 /* TasbeehUITests */,
+			);
+			name = TasbeehUITests;
+			packageProductDependencies = (
+			);
+			productName = TasbeehUITests;
+			productReference = F44980632D855B11001D36A1 /* TasbeehUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F449806E2D855B11001D36A1 /* Tasbeeh Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F44980952D855B13001D36A1 /* Build configuration list for PBXNativeTarget "Tasbeeh Watch App" */;
+			buildPhases = (
+				F449806B2D855B11001D36A1 /* Sources */,
+				F449806C2D855B11001D36A1 /* Frameworks */,
+				F449806D2D855B11001D36A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F44980732D855B11001D36A1 /* Tasbeeh Watch App */,
+			);
+			name = "Tasbeeh Watch App";
+			packageProductDependencies = (
+			);
+			productName = "Tasbeeh Watch App";
+			productReference = F449806F2D855B11001D36A1 /* Tasbeeh Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F44980802D855B12001D36A1 /* Tasbeeh Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F44980A22D855B13001D36A1 /* Build configuration list for PBXNativeTarget "Tasbeeh Watch AppTests" */;
+			buildPhases = (
+				F449807D2D855B12001D36A1 /* Sources */,
+				F449807E2D855B12001D36A1 /* Frameworks */,
+				F449807F2D855B12001D36A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F44980832D855B12001D36A1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F44980842D855B12001D36A1 /* Tasbeeh Watch AppTests */,
+			);
+			name = "Tasbeeh Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "Tasbeeh Watch AppTests";
+			productReference = F44980812D855B12001D36A1 /* Tasbeeh Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F449808A2D855B13001D36A1 /* Tasbeeh Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F44980A52D855B13001D36A1 /* Build configuration list for PBXNativeTarget "Tasbeeh Watch AppUITests" */;
+			buildPhases = (
+				F44980872D855B13001D36A1 /* Sources */,
+				F44980882D855B13001D36A1 /* Frameworks */,
+				F44980892D855B13001D36A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F449808D2D855B13001D36A1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F449808E2D855B13001D36A1 /* Tasbeeh Watch AppUITests */,
+			);
+			name = "Tasbeeh Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "Tasbeeh Watch AppUITests";
+			productReference = F449808B2D855B13001D36A1 /* Tasbeeh Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F44980412D855B10001D36A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					F44980482D855B10001D36A1 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					F44980582D855B11001D36A1 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = F44980482D855B10001D36A1;
+					};
+					F44980622D855B11001D36A1 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = F44980482D855B10001D36A1;
+					};
+					F449806E2D855B11001D36A1 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					F44980802D855B12001D36A1 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = F449806E2D855B11001D36A1;
+					};
+					F449808A2D855B13001D36A1 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = F449806E2D855B11001D36A1;
+					};
+				};
+			};
+			buildConfigurationList = F44980442D855B10001D36A1 /* Build configuration list for PBXProject "Tasbeeh" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F44980402D855B10001D36A1;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F449804A2D855B10001D36A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F44980482D855B10001D36A1 /* Tasbeeh */,
+				F44980582D855B11001D36A1 /* TasbeehTests */,
+				F44980622D855B11001D36A1 /* TasbeehUITests */,
+				F449806E2D855B11001D36A1 /* Tasbeeh Watch App */,
+				F44980802D855B12001D36A1 /* Tasbeeh Watch AppTests */,
+				F449808A2D855B13001D36A1 /* Tasbeeh Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F44980472D855B10001D36A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44980572D855B11001D36A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44980612D855B11001D36A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F449806D2D855B11001D36A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F449807F2D855B12001D36A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44980892D855B13001D36A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F44980452D855B10001D36A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44980552D855B11001D36A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F449805F2D855B11001D36A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F449806B2D855B11001D36A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F449807D2D855B12001D36A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44980872D855B13001D36A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F449805B2D855B11001D36A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F44980482D855B10001D36A1 /* Tasbeeh */;
+			targetProxy = F449805A2D855B11001D36A1 /* PBXContainerItemProxy */;
+		};
+		F44980652D855B11001D36A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F44980482D855B10001D36A1 /* Tasbeeh */;
+			targetProxy = F44980642D855B11001D36A1 /* PBXContainerItemProxy */;
+		};
+		F44980722D855B11001D36A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F449806E2D855B11001D36A1 /* Tasbeeh Watch App */;
+			targetProxy = F44980712D855B11001D36A1 /* PBXContainerItemProxy */;
+		};
+		F44980832D855B12001D36A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F449806E2D855B11001D36A1 /* Tasbeeh Watch App */;
+			targetProxy = F44980822D855B12001D36A1 /* PBXContainerItemProxy */;
+		};
+		F449808D2D855B13001D36A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F449806E2D855B11001D36A1 /* Tasbeeh Watch App */;
+			targetProxy = F449808C2D855B13001D36A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F44980932D855B13001D36A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F44980942D855B13001D36A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F44980962D855B13001D36A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tasbeeh Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Tasbeeh;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.imam.sutria.Tasbeeh;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imam.sutria.Tasbeeh.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		F44980972D855B13001D36A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tasbeeh Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Tasbeeh;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.imam.sutria.Tasbeeh;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imam.sutria.Tasbeeh.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		F449809A2D855B13001D36A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tasbeeh/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Tasbeeh;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imam.sutria.Tasbeeh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F449809B2D855B13001D36A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tasbeeh/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Tasbeeh;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imam.sutria.Tasbeeh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F449809D2D855B13001D36A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imam.sutria.TasbeehTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tasbeeh.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tasbeeh";
+			};
+			name = Debug;
+		};
+		F449809E2D855B13001D36A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imam.sutria.TasbeehTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tasbeeh.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tasbeeh";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F44980A02D855B13001D36A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imam.sutria.TasbeehUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tasbeeh;
+			};
+			name = Debug;
+		};
+		F44980A12D855B13001D36A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imam.sutria.TasbeehUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tasbeeh;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F44980A32D855B13001D36A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.imam.sutria.Tasbeeh-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tasbeeh Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tasbeeh Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		F44980A42D855B13001D36A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.imam.sutria.Tasbeeh-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tasbeeh Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tasbeeh Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		F44980A62D855B13001D36A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.imam.sutria.Tasbeeh-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Tasbeeh Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		F44980A72D855B13001D36A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.imam.sutria.Tasbeeh-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Tasbeeh Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F44980442D855B10001D36A1 /* Build configuration list for PBXProject "Tasbeeh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44980932D855B13001D36A1 /* Debug */,
+				F44980942D855B13001D36A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F44980952D855B13001D36A1 /* Build configuration list for PBXNativeTarget "Tasbeeh Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44980962D855B13001D36A1 /* Debug */,
+				F44980972D855B13001D36A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F44980992D855B13001D36A1 /* Build configuration list for PBXNativeTarget "Tasbeeh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F449809A2D855B13001D36A1 /* Debug */,
+				F449809B2D855B13001D36A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F449809C2D855B13001D36A1 /* Build configuration list for PBXNativeTarget "TasbeehTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F449809D2D855B13001D36A1 /* Debug */,
+				F449809E2D855B13001D36A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F449809F2D855B13001D36A1 /* Build configuration list for PBXNativeTarget "TasbeehUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44980A02D855B13001D36A1 /* Debug */,
+				F44980A12D855B13001D36A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F44980A22D855B13001D36A1 /* Build configuration list for PBXNativeTarget "Tasbeeh Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44980A32D855B13001D36A1 /* Debug */,
+				F44980A42D855B13001D36A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F44980A52D855B13001D36A1 /* Build configuration list for PBXNativeTarget "Tasbeeh Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44980A62D855B13001D36A1 /* Debug */,
+				F44980A72D855B13001D36A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F44980412D855B10001D36A1 /* Project object */;
+}
