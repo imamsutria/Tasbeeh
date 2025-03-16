@@ -11,7 +11,8 @@ import SwiftUI
 struct Tasbeeh_Watch_AppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainTabView()
+                .background(Color(red: 0.012, green: 0.299, blue: 0.326))
         }
     }
 }
